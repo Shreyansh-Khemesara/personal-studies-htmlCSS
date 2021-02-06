@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>float and clear</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <style>
+            img{
+                width: 122px;
+                margin: autos;
+            }
+            header{
+                margin: auto;
+                width: 10%;
+            }
+            .top{
+                align-items:center;
+            }
+            #container {
+                background-color: rgb(231, 147, 21);
+                width: 100%;
+                height: 550px;
+                padding: 10px;
+                border: 3px solid grey;
+                margin: auto;
+            }
+
+            .objects {
+                background-color: skyblue;
+                align-items: center, center;
+                border: 3px solid violet;
+                padding: 2px;
+                margin-top: 20px;
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            #first {
+                float: left;
+                width: 48%;
+                height: 230px;
+            }
+
+            #second {
+                float: right;
+                width: 48%;
+                margin-right: 2px;
+                height: 230px;
+            }
+
+            #third {
+                float: left;
+                width: 100%;
+                ;
+            }
+
+
+
+            .btn {
+                background-color: red;
+                color: white;
+                padding: 8px;
+                border: 2px solid black;
+                font-size: 15px;
+            }
+
+            .navbar {
+                font-size: 20px;
+               background-color: black;
+               border-radius: 80px;
+            }
+            .navbar ul{
+                overflow: auto;
+            }
+            .navbar li:hover{
+                color: red;
+            }
+            .navbar li {
+                float: left;
+                height: 12px;
+                list-style:none;
+                padding: 16px;
+                color: white;
+            }
+            .navbar input{
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 3px,15px;
+            }
+            .search{
+                float: right;
+                padding: 13px;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+
+    <body>
+            <header class="top">
+                <img src="https://www.imagesource.com/wp-content/uploads/2020/07/ImageSource-logo-main.jpg" alt="cant load img">
+            </header>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Log in</li>
+                <li>contact us</li>
+                <li>downloads</li>
+                <div class="search">
+                     <input type="text" name="search" class="type" id= "intake" placeholder="search">
+                </div>
+            </ul>
+        </nav>
+        <div id="container">
+            <h1>this website is under maintance</h1>
+
+            <div id="first" class="objects">
+                <h5>first tool :</h5>
+                <p class="description">this is tool 1 and here are Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Neque minima quae, vel rem ad id velit consectetur, accusantium, cum perspiciatis aliquid odit
+                    aut sit nulla voluptatem labore! Quibusdam eligendi obcaecati nihil eius!</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="btn">read more</a>
+                <button class="btn">about us</button>
+            </div>
+            <div id="second" class="objects">
+                <h5>second tool</h5>
+                <p class="description">this is tool 2 and here are Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Corporis accusamus fugiat, in iure culpa maiores molestiae sint qui voluptas, recusandae
+                    corrupti minus. Pariatur atque accusamus vero voluptate est sequi iste possimus eos!</p>
+            </div>
+            <div id="third" class="objects">
+                <h5>third tool</h5>
+                <p class="description">this is tool 3 and here are Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Quis, nam obcaecati. Nam praesentium veritatis, voluptatum molestiae tempore magnam quo dicta
+                    commodi cupiditate, quas voluptas nisi recusandae fugit soluta, mollitia et illum consequuntur?</p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
